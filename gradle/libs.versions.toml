@@ -1,0 +1,23 @@
+[versions]
+# Kotlin
+kotlin = "2.3.20"
+
+# Fabric
+minecraft = "26.1.2"
+fabric-loom = "1.16-SNAPSHOT"
+fabric-loader = "0.19.1"
+fabric-api = "0.145.4+26.1.2"
+fabric-kotlin = "1.13.10+kotlin.2.3.20"
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+fabric-loom = { id = "net.fabricmc.fabric-loom", version.ref = "fabric-loom" }
+
+[libraries]
+# Fabric
+minecraft = { group = "com.mojang", name = "minecraft", version.ref = "minecraft" }
+fabric-loader = { group = "net.fabricmc", name = "fabric-loader", version.ref = "fabric-loader" }
+fabric-api = { group = "net.fabricmc.fabric-api", name = "fabric-api", version.ref = "fabric-api" }
+fabric-kotlin = { group = "net.fabricmc", name = "fabric-language-kotlin", version.ref = "fabric-kotlin" }
+
+[bundles]
