@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Untitled"
+rootProject.name = "Drizzle"
