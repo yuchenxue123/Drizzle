@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "drizzle",
+  "version": "$version",
+  "name": "Drizzle",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.meow.drizzle.Drizzle"
+      }
+    ]
+  },
+  "mixins": [
+    "drizzle.mixins.json"
+  ]
+}
