@@ -11,6 +11,9 @@
     "requireAnnotations": true
   },
   "client": [
-    "minecraft.client.MixinMinecraft"
+    "minecraft.client.MixinMinecraft",
+    "minecraft.gui.MixinChatScreen",
+    "minecraft.gui.MixinCommandSuggestions",
+    "minecraft.gui.MixinScreen"
   ]
 }

@@ -15,6 +15,10 @@ repositories {
     mavenCentral()
 }
 
+loom {
+    accessWidenerPath = file("src/main/resources/drizzle.accesswidener")
+}
+
 dependencies {
     minecraft(libs.minecraft)
     implementation(libs.fabric.loader)
